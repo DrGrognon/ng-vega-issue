@@ -10,8 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-vega": "^7.6.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
@@ -24,6 +25,12 @@
     "globals": "^15.14.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.22.0",
+    "vega": "^5.31.0",
+    "vega-lite": "^5.23.0",
     "vite": "^6.1.0"
+  },
+  "peerDependencies": {
+    "vega": "^5.31.0",
+    "vega-lite": "^5.23.0"
   }
 }
